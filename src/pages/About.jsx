@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { asset } from "../lib/asset";
 import { Icon } from "../components/Icon";
 import { Reveal } from "../components/Reveal";
 import { PageHero } from "../components/PageHero";
@@ -14,7 +15,7 @@ export default function About() {
         eyebrow="Our school"
         title="The story of Mathubesizwe"
         intro="A community-founded school in Macambini, KwaZulu-Natal, that has become a gateway to a better life for generations of local families."
-        image="/images/awards-01.jpg"
+        image={asset("/images/awards-01.jpg")}
       />
 
       {/* STORY */}
@@ -50,7 +51,7 @@ export default function About() {
           </div>
           <Reveal className="split__media split__media--wide">
             <img
-              src="/images/school-banner.jpg"
+              src={asset("/images/school-banner.jpg")}
               alt="The official Mathubesizwe High School banner"
             />
             <div className="split__badge">
@@ -151,7 +152,7 @@ export default function About() {
         <div className="wrap split">
           <Reveal className="split__media">
             <img
-              src="/images/hall-guests.jpg"
+              src={asset("/images/hall-guests.jpg")}
               alt="Educators and community members at a school ceremony"
               style={{ aspectRatio: "4 / 5" }}
             />

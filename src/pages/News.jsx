@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { asset } from "../lib/asset";
 import { Icon } from "../components/Icon";
 import { Reveal } from "../components/Reveal";
 import { PageHero } from "../components/PageHero";
@@ -16,7 +17,7 @@ export default function News() {
         eyebrow="Latest"
         title="News &amp; events"
         intro="Achievements, milestones and community moments from Mathubesizwe High School."
-        image="/images/awards-14.jpg"
+        image={asset("/images/awards-14.jpg")}
       />
 
       {/* FEATURE */}

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
+import { asset } from "../lib/asset";
 import { Icon } from "../components/Icon";
 import { Reveal } from "../components/Reveal";
 import { PageHero } from "../components/PageHero";
@@ -42,7 +43,7 @@ export default function Gallery() {
         eyebrow="In pictures"
         title="Gallery"
         intro="Learning, celebration, heritage and hard work, moments from the Mathubesizwe community."
-        image="/images/awards-18.jpg"
+        image={asset("/images/awards-18.jpg")}
       />
 
       <section className="section">

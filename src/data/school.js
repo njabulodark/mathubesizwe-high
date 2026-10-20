@@ -1,3 +1,5 @@
+import { asset } from "../lib/asset";
+
 export const school = {
   name: "Mathubesizwe High School",
   altName: "Mathubesizwe Senior Secondary School",
@@ -246,20 +248,20 @@ export const faqs = [
 ];
 
 export const galleryImages = [
-  { src: "/images/hero-matric-awards.jpg", cap: "Matric Awards Day", size: "g-wide" },
-  { src: "/images/celebration.jpg", cap: "Celebrating a hard-won pass", size: "g-tall" },
-  { src: "/images/awards-12.jpg", cap: "Certificate handover", size: "g-mid" },
-  { src: "/images/podium-address.jpg", cap: "An address to the class", size: "g-tall" },
-  { src: "/images/awards-14.jpg", cap: "Matric Awards Day 2025", size: "g-mid" },
-  { src: "/images/hall-audience.jpg", cap: "Families and guests in the hall", size: "g-wide" },
-  { src: "/images/awards-16.jpg", cap: "A proud moment for our learners", size: "g-mid" },
-  { src: "/images/awards-18.jpg", cap: "Class of 2025", size: "g-tall" },
-  { src: "/images/awards-07.jpg", cap: "Matric Awards Day 2025", size: "g-mid" },
-  { src: "/images/award-handover.jpg", cap: "Receiving the certificate", size: "g-wide" },
-  { src: "/images/awards-01.jpg", cap: "Educators and learners together", size: "g-mid" },
-  { src: "/images/hall-guests.jpg", cap: "Educators and community together", size: "g-narrow" },
-  { src: "/images/hall-seating.jpg", cap: "Our guests of honour", size: "g-wide" },
-  { src: "/images/awards-04.jpg", cap: "Receiving the National Senior Certificate", size: "g-mid" },
+  { src: asset("/images/hero-matric-awards.jpg"), cap: "Matric Awards Day", size: "g-wide" },
+  { src: asset("/images/celebration.jpg"), cap: "Celebrating a hard-won pass", size: "g-tall" },
+  { src: asset("/images/awards-12.jpg"), cap: "Certificate handover", size: "g-mid" },
+  { src: asset("/images/podium-address.jpg"), cap: "An address to the class", size: "g-tall" },
+  { src: asset("/images/awards-14.jpg"), cap: "Matric Awards Day 2025", size: "g-mid" },
+  { src: asset("/images/hall-audience.jpg"), cap: "Families and guests in the hall", size: "g-wide" },
+  { src: asset("/images/awards-16.jpg"), cap: "A proud moment for our learners", size: "g-mid" },
+  { src: asset("/images/awards-18.jpg"), cap: "Class of 2025", size: "g-tall" },
+  { src: asset("/images/awards-07.jpg"), cap: "Matric Awards Day 2025", size: "g-mid" },
+  { src: asset("/images/award-handover.jpg"), cap: "Receiving the certificate", size: "g-wide" },
+  { src: asset("/images/awards-01.jpg"), cap: "Educators and learners together", size: "g-mid" },
+  { src: asset("/images/hall-guests.jpg"), cap: "Educators and community together", size: "g-narrow" },
+  { src: asset("/images/hall-seating.jpg"), cap: "Our guests of honour", size: "g-wide" },
+  { src: asset("/images/awards-04.jpg"), cap: "Receiving the National Senior Certificate", size: "g-mid" },
 ];
 
 export const news = [
@@ -268,49 +270,49 @@ export const news = [
     date: "January 2026",
     title: "Seven distinctions: Siphokazi Dube shines in the NSC",
     body: "Our top achiever of the Class of 2025 earned seven distinctions in the National Senior Certificate examinations and has been welcomed by the University of KwaZulu-Natal.",
-    img: "/images/celebration.jpg",
+    img: asset("/images/celebration.jpg"),
   },
   {
     tag: "Events",
     date: "2025",
     title: "Matric Awards Day honours our achievers",
     body: "Families, educators and community leaders filled the school hall as the National Senior Certificate was handed to the Class of 2025, one learner at a time.",
-    img: "/images/awards-12.jpg",
+    img: asset("/images/awards-12.jpg"),
   },
   {
     tag: "Moot Court",
     date: "March 2020",
     title: "From Macambini to Gdynia, Poland",
     body: "Nosipho Dube and Nondumiso Ntshangase represented South Africa at the 5th International Moot Court Competition, and Team South Africa was named the winner.",
-    img: "/images/awards-14.jpg",
+    img: asset("/images/awards-14.jpg"),
   },
   {
     tag: "Infrastructure",
     date: "2026",
     title: "A fundraising drive for a library, lab and media centre",
     body: "The school community is rallying donors and alumni to build the facilities our learners deserve: a library, a science laboratory and an internet-connected media centre.",
-    img: "/images/school-banner.jpg",
+    img: asset("/images/school-banner.jpg"),
   },
   {
     tag: "Community",
     date: "Ongoing",
     title: "The learners who walk seven kilometres to learn",
     body: "Every day, many of our learners walk up to ten kilometres to reach the classroom. Their commitment is the heartbeat of Mathubesizwe.",
-    img: "/images/awards-01.jpg",
+    img: asset("/images/awards-01.jpg"),
   },
   {
     tag: "Results",
     date: "Class of 2019",
     title: "A 98.4% pass rate, the highest in years",
     body: "The Class of 2019 recorded the school's strongest overall pass rate, a milestone that continues to inspire our teaching staff and learners alike.",
-    img: "/images/awards-16.jpg",
+    img: asset("/images/awards-16.jpg"),
   },
   {
     tag: "Skills",
     date: "Ongoing",
     title: "Coding and digital skills take root",
     body: "Through coding clubs and digital-literacy sessions, more of our learners are discovering careers in technology, even as we campaign for better computer access.",
-    img: "/images/hall-audience.jpg",
+    img: asset("/images/hall-audience.jpg"),
   },
 ];
 

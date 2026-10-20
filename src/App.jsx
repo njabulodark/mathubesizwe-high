@@ -11,9 +11,13 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import "./App.css";
 
+// Keep client-side routing working when the app is served from a sub-path
+// (GitHub Pages project sites live at /<repo>/).
+const basename = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { asset } from "../lib/asset";
 import { Icon } from "../components/Icon";
 import { Reveal } from "../components/Reveal";
 import { SectionHead } from "../components/SectionHead";
@@ -10,7 +11,7 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="hero__media">
-          <img src="/images/hero-matric-awards.jpg" alt="" aria-hidden="true" />
+          <img src={asset("/images/hero-matric-awards.jpg")} alt="" aria-hidden="true" />
         </div>
         <div className="wrap">
           <span className="eyebrow hero__eyebrow">
@@ -90,7 +91,7 @@ export default function Home() {
           </div>
           <Reveal className="split__media split__media--wide">
             <img
-              src="/images/matric-class-2026.jpg"
+              src={asset("/images/matric-class-2026.jpg")}
               alt="The Matric Class of 2026"
             />
             <div className="split__badge">
@@ -145,7 +146,7 @@ export default function Home() {
         <div className="wrap split split--reverse">
           <Reveal className="split__media split__media--wide">
             <img
-              src="/images/award-handover.jpg"
+              src={asset("/images/award-handover.jpg")}
               alt="A learner receives a certificate at Matric Awards Day"
             />
           </Reveal>
@@ -181,21 +182,21 @@ export default function Home() {
           <Reveal className="collage" style={{ marginTop: "3rem" }}>
             <div className="collage__item collage__item--tall c-a">
               <img
-                src="/images/awards-12.jpg"
+                src={asset("/images/awards-12.jpg")}
                 alt="Certificate handover at Matric Awards Day"
               />
             </div>
             <div className="collage__item collage__item--mid c-b">
-              <img src="/images/awards-14.jpg" alt="Matric Awards Day 2025" />
+              <img src={asset("/images/awards-14.jpg")} alt="Matric Awards Day 2025" />
             </div>
             <div className="collage__item collage__item--short c-c">
-              <img src="/images/hall-audience.jpg" alt="Families and guests at school" />
+              <img src={asset("/images/hall-audience.jpg")} alt="Families and guests at school" />
             </div>
             <div className="collage__item collage__item--mid c-b">
-              <img src="/images/awards-16.jpg" alt="A learner with the school banner" />
+              <img src={asset("/images/awards-16.jpg")} alt="A learner with the school banner" />
             </div>
             <div className="collage__item collage__item--short c-c">
-              <img src="/images/podium-address.jpg" alt="An educator addresses the class" />
+              <img src={asset("/images/podium-address.jpg")} alt="An educator addresses the class" />
             </div>
           </Reveal>
           <div style={{ textAlign: "center", marginTop: "2.5rem" }}>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { asset } from "../lib/asset";
 import { Icon } from "../components/Icon";
 import { Reveal } from "../components/Reveal";
 import { PageHero } from "../components/PageHero";
@@ -19,7 +20,7 @@ export default function Admissions() {
         eyebrow="Join us"
         title="Admissions &amp; registration"
         intro="Registration for Grades 8 to 12 is open. Mathubesizwe is a no-fee public school, so there are no school fees to pay."
-        image="/images/awards-07.jpg"
+        image={asset("/images/awards-07.jpg")}
       />
 
       {/* NO FEE HIGHLIGHT */}
@@ -111,7 +112,7 @@ export default function Admissions() {
           </div>
           <Reveal className="split__media">
             <img
-              src="/images/hall-audience.jpg"
+              src={asset("/images/hall-audience.jpg")}
               alt="Learners, families and guests gathered at school"
             />
             <div className="split__badge">

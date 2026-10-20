@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { asset } from "../lib/asset";
 import { Icon } from "../components/Icon";
 import { Reveal } from "../components/Reveal";
 import { PageHero } from "../components/PageHero";
@@ -37,7 +38,7 @@ export default function Contact() {
         eyebrow="Get in touch"
         title="Contact us"
         intro="Whether you are applying, donating or simply curious, the Mathubesizwe community would love to hear from you."
-        image="/images/awards-12.jpg"
+        image={asset("/images/awards-12.jpg")}
       />
 
       <section className="section">
@@ -107,13 +108,14 @@ export default function Contact() {
 
               <div
                 className="map-frame"
-                aria-label="Map of Macambini, KwaZulu-Natal"
+                aria-label="Map of Mathubesizwe Senior Secondary School, Macambini, KwaZulu-Natal"
               >
                 <iframe
-                  title="Map showing Macambini, KwaZulu-Natal"
-                  src="https://www.google.com/maps?q=Macambini,%20KwaZulu-Natal&output=embed"
+                  title="Map showing Mathubesizwe Senior Secondary School, Macambini, KwaZulu-Natal"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1742.778272357985!2d31.51828026786208!3d-29.118770681535075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef753e5d05bfef5%3A0xc0b1ca2d5169486d!2sMathubesizwe%20Senior%20Secondary%20School!5e0!3m2!1sen!2sza!4v1792479357867!5m2!1sen!2sza"
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
+                  allowFullScreen
+                  referrerPolicy="strict-origin-when-cross-origin"
                 />
               </div>
             </div>

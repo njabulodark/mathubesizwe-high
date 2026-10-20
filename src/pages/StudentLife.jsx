@@ -1,4 +1,5 @@
 import { Icon } from "../components/Icon";
+import { asset } from "../lib/asset";
 import { Reveal } from "../components/Reveal";
 import { PageHero } from "../components/PageHero";
 import { SectionHead } from "../components/SectionHead";
@@ -41,7 +42,7 @@ export default function StudentLife() {
         eyebrow="Beyond the classroom"
         title="Student life"
         intro="Moot court champions, debaters, gardeners, singers and athletes, our learners are more than their marks."
-        image="/images/awards-16.jpg"
+        image={asset("/images/awards-16.jpg")}
       />
 
       {/* MOOT COURT FEATURE */}
@@ -49,7 +50,7 @@ export default function StudentLife() {
         <div className="wrap split split--reverse">
           <Reveal className="split__media split__media--wide">
             <img
-              src="/images/celebration.jpg"
+              src={asset("/images/celebration.jpg")}
               alt="A learner celebrates a hard-won matric pass"
             />
             <div className="split__badge">
@@ -120,7 +121,7 @@ export default function StudentLife() {
               </Reveal>
               <Reveal>
                 <img
-                  src="/images/hall-audience.jpg"
+                  src={asset("/images/hall-audience.jpg")}
                   alt="Learners, families and guests in the school hall"
                   style={{
                     borderRadius: "var(--radius)",
@@ -169,13 +170,13 @@ export default function StudentLife() {
           />
           <Reveal className="collage" style={{ marginTop: "3rem" }}>
             <div className="collage__item collage__item--tall c-a">
-              <img src="/images/awards-12.jpg" alt="Certificate handover" />
+              <img src={asset("/images/awards-12.jpg")} alt="Certificate handover" />
             </div>
             <div className="collage__item collage__item--mid c-f">
-              <img src="/images/awards-18.jpg" alt="A learner with the school banner" />
+              <img src={asset("/images/awards-18.jpg")} alt="A learner with the school banner" />
             </div>
             <div className="collage__item collage__item--short c-g">
-              <img src="/images/podium-address.jpg" alt="An address to the class" />
+              <img src={asset("/images/podium-address.jpg")} alt="An address to the class" />
             </div>
           </Reveal>
         </div>

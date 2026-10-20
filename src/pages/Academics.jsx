@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { asset } from "../lib/asset";
 import { Icon } from "../components/Icon";
 import { Reveal } from "../components/Reveal";
 import { PageHero } from "../components/PageHero";
@@ -20,7 +21,7 @@ export default function Academics() {
         eyebrow="Teaching &amp; learning"
         title="Academics at Mathubesizwe"
         intro="Three streams, two languages of instruction, and a relentless focus on getting our learners into universities, colleges and careers."
-        image="/images/awards-04.jpg"
+        image={asset("/images/awards-04.jpg")}
       />
 
       {/* INTRO + CORE */}
@@ -43,7 +44,7 @@ export default function Academics() {
           </div>
           <Reveal className="split__media split__media--wide">
             <img
-              src="/images/matric-class-2026.jpg"
+              src={asset("/images/matric-class-2026.jpg")}
               alt="The Matric Class of 2026"
             />
             <div className="split__badge">

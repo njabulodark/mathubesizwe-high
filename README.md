@@ -1,16 +1,41 @@
-# React + Vite
+# Mathubesizwe High School website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The public website for Mathubesizwe High School (Mathubesizwe Senior Secondary
+School), Macambini, Nyoni, KwaZulu-Natal.
 
-Currently, two official plugins are available:
+Built with React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Local development
 
-## React Compiler
+```bash
+npm install
+npm run dev        # http://localhost:5173/
+npm run build      # production build into dist/
+npm run preview    # preview the production build
+npm run lint
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Deployment (GitHub Pages)
 
-## Expanding the Oxlint configuration
+The site is published to GitHub Pages at:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+https://njabulodark.github.io/mathubesizwe-high/
+
+```bash
+npm run deploy
+```
+
+That command builds the site and pushes `dist/` to the `gh-pages` branch. In the
+repository, set **Settings → Pages → Build and deployment → Source** to
+**Deploy from a branch**, branch **gh-pages**, folder **/ (root)**.
+
+Notes for Pages:
+
+- `vite.config.js` sets the production base path to `/mathubesizwe-high/`, so the
+  app must live at that URL. If the site moves to a custom domain or a user page,
+  change `PAGES_BASE` there.
+- Public assets are referenced through `asset()` from `src/lib/asset.js` so that
+  `public/images/...` keeps resolving under the base path.
+- `npm run build` also writes `dist/404.html` (a copy of `index.html`) so deep
+  links such as `/mathubesizwe-high/about` still load the app on refresh.
+- `public/.nojekyll` stops GitHub Pages from running Jekyll on the build output.
