@@ -11,9 +11,9 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import "./App.css";
 
-// Keep client-side routing working when the app is served from a sub-path
-// (GitHub Pages project sites live at /<repo>/).
-const basename = import.meta.env.BASE_URL.replace(/\/$/, "");
+// Keep client-side routing working whether the app is served from the domain
+// root (custom domain) or a sub-path such as /mathubesizwe-high/.
+const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || "/";
 
 function App() {
   return (

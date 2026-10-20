@@ -3,9 +3,11 @@ import { copyFileSync, existsSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 
-// Served as a GitHub Pages project site:
-// https://njabulodark.github.io/mathubesizwe-high/
-const PAGES_BASE = '/mathubesizwe-high/'
+// The site is published to GitHub Pages behind the custom domain
+// https://mathubesizwe.datafusioncreation.co.za/ (see public/CNAME), so it is
+// served from the root. If it ever moves back to a project site such as
+// https://njabulodark.github.io/mathubesizwe-high/, set base to that sub-path.
+const SITE_BASE = '/'
 
 /**
  * GitHub Pages has no SPA rewrites, so unknown paths (e.g. /about) fall back to
@@ -25,7 +27,7 @@ function spaFallback() {
 }
 
 // https://vite.dev/config/
-export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? PAGES_BASE : '/',
+export default defineConfig({
+  base: SITE_BASE,
   plugins: [react(), spaFallback()],
-}))
+})
