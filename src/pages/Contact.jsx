@@ -36,7 +36,7 @@ export default function Contact() {
         crumb="Contact"
         eyebrow="Get in touch"
         title="Contact us"
-        intro="Whether you are applying, donating or simply curious — the Mathubesizwe community would love to hear from you."
+        intro="Whether you are applying, donating or simply curious, the Mathubesizwe community would love to hear from you."
         image="/images/awards-12.jpg"
       />
 
@@ -129,7 +129,7 @@ export default function Contact() {
                 <div className="form" style={{ marginTop: "1.5rem" }}>
                   <div className="form__ok">
                     <strong>Thank you.</strong> Your message has been prepared.
-                    We will be in touch. (This demo form does not send data — please
+                    We will be in touch. (This demo form does not send data. Please
                     email the school office directly.)
                   </div>
                   <button

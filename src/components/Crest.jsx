@@ -74,7 +74,7 @@ export function Crest({ size = 46, light = false }) {
           strokeWidth="1.3"
           strokeLinecap="round"
         />
-        {/* ribbon — Scientia Lux */}
+        {/* ribbon: Scientia Lux */}
         <path d="M10.5 47.4 6.2 51l4.3 3.6z" fill={field} />
         <path d="M53.5 47.4 57.8 51l-4.3 3.6z" fill={field} />
         <rect x="10.5" y="47.4" width="43" height="7.2" rx="1.4" fill={field} />

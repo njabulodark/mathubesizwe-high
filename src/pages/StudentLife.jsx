@@ -9,7 +9,7 @@ const day = [
   {
     time: "05:30",
     title: "The walk begins",
-    body: "Many learners set off on foot — some travelling seven to ten kilometres before the first bell.",
+    body: "Many learners set off on foot, some travelling seven to ten kilometres before the first bell.",
   },
   {
     time: "07:30",
@@ -24,7 +24,7 @@ const day = [
   {
     time: "15:00",
     title: "Clubs & sport",
-    body: "Moot court, debating, science club, choir, agriculture, athletics — after the last bell.",
+    body: "Moot court, debating, science club, choir, agriculture, athletics, after the last bell.",
   },
   {
     time: "Saturdays",
@@ -40,7 +40,7 @@ export default function StudentLife() {
         crumb="Student Life"
         eyebrow="Beyond the classroom"
         title="Student life"
-        intro="Moot court champions, debaters, gardeners, singers and athletes — our learners are more than their marks."
+        intro="Moot court champions, debaters, gardeners, singers and athletes, our learners are more than their marks."
         image="/images/awards-16.jpg"
       />
 
@@ -59,7 +59,7 @@ export default function StudentLife() {
           </Reveal>
           <div className="split__body">
             <span className="eyebrow">Signature programme</span>
-            <Reveal as="h2">Where our learners argue — and win — on the world stage.</Reveal>
+            <Reveal as="h2">Where our learners argue, and win, on the world stage.</Reveal>
             <Reveal as="p">
               In 2020, two of our learners, Nosipho Dube and Nondumiso Ntshangase,
               were selected to represent South Africa at the 5th International
@@ -68,7 +68,7 @@ export default function StudentLife() {
             </Reveal>
             <Reveal as="p">
               That journey began in the National Schools Moot Court Competition
-              and was powered by a teacher — Ms Mandisa Mtolo — who borrowed
+              and was powered by a teacher, Ms Mandisa Mtolo, who borrowed
               learners her own laptop and arranged mentors from UKZN and UNISA so
               they could research, write and present like advocates.
             </Reveal>
@@ -86,7 +86,7 @@ export default function StudentLife() {
           <SectionHead
             eyebrow="Get involved"
             title="Clubs, teams &amp; societies"
-            lede="There is a place for every talent here — and a habit of finding ability in unexpected places."
+            lede="There is a place for every talent here, and a habit of finding ability in unexpected places."
           />
           <div className="grid-4" style={{ marginTop: "2.5rem" }}>
             {studentClubs.map((c, i) => (
@@ -115,7 +115,7 @@ export default function StudentLife() {
               <Reveal as="p">
                 Our school day is shaped by the reality of the valley and the
                 determination of its young people. It is early starts, long
-                walks and late buses — but it is also full classrooms, loud
+                walks and late buses, but it is also full classrooms, loud
                 choirs and hard-won results.
               </Reveal>
               <Reveal>
@@ -164,7 +164,7 @@ export default function StudentLife() {
           <SectionHead
             eyebrow="Culture &amp; heritage"
             title="Proudly isiZulu, proudly KwaZulu-Natal"
-            lede="We celebrate the language, music and traditions of our community — and we carry that pride into everything we do."
+            lede="We celebrate the language, music and traditions of our community, and we carry that pride into everything we do."
             align="center"
           />
           <Reveal className="collage" style={{ marginTop: "3rem" }}>
@@ -185,7 +185,7 @@ export default function StudentLife() {
         <div className="wrap">
           <CtaBanner
             title="Find your place at Mathubesizwe"
-            body="Whichever gift you bring — an argument, a song, a green thumb or a fast pair of legs — we will help you grow it."
+            body="Whichever gift you bring (an argument, a song, a green thumb or a fast pair of legs), we will help you grow it."
           />
         </div>
       </section>

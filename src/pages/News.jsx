@@ -89,7 +89,7 @@ export default function News() {
           <SectionHead
             eyebrow="What&rsquo;s coming up"
             title="School calendar highlights"
-            lede="Dates are indicative — please confirm with the school office."
+            lede="Dates are indicative, so please confirm with the school office."
           />
           <div className="grid-3" style={{ marginTop: "2.5rem" }}>
             {[
@@ -116,7 +116,7 @@ export default function News() {
         <div className="wrap">
           <CtaBanner
             title="Have news to share?"
-            body="Alumni, parents and community members — send us your updates and achievements."
+            body="Alumni, parents and community members, send us your updates and achievements."
             primary={{ to: "/contact", label: "Send a message" }}
             secondary={{ to: "/gallery", label: "Browse the gallery" }}
           />

@@ -102,8 +102,8 @@ export default function Academics() {
                 from the classroom to the community.
               </Reveal>
               <Reveal as="p" style={{ marginBottom: 0 }}>
-                Our Class of 2019 recorded a 98.4% overall pass rate — the
-                school&rsquo;s best in years — and our top 2025 achiever earned
+                Our Class of 2019 recorded a 98.4% overall pass rate, the
+                school&rsquo;s best in years, and our top 2025 achiever earned
                 seven distinctions.
               </Reveal>
             </div>
@@ -141,7 +141,7 @@ export default function Academics() {
           <SectionHead
             eyebrow="Academic support"
             title="Support that goes beyond the timetable"
-            lede="Extra classes, mentors and guidance — because talent is everywhere, but opportunity is not."
+            lede="Extra classes, mentors and guidance, because talent is everywhere, but opportunity is not."
           />
           <div className="grid-2" style={{ marginTop: "2.5rem" }}>
             {academicSupport.map((s, i) => (
@@ -194,7 +194,7 @@ export default function Academics() {
         <div className="wrap">
           <CtaBanner
             title="Enrol for the next academic year"
-            body="Applications for Grades 8 to 12 are open. It takes just four steps — and there are no school fees."
+            body="Applications for Grades 8 to 12 are open. It takes just four steps, and there are no school fees."
             primary={{ to: "/admissions", label: "How to apply" }}
             secondary={{ to: "/contact", label: "Ask a question" }}
           />

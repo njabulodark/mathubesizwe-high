@@ -41,7 +41,7 @@ export default function Gallery() {
         crumb="Gallery"
         eyebrow="In pictures"
         title="Gallery"
-        intro="Learning, celebration, heritage and hard work — moments from the Mathubesizwe community."
+        intro="Learning, celebration, heritage and hard work, moments from the Mathubesizwe community."
         image="/images/awards-18.jpg"
       />
 

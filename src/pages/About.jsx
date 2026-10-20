@@ -24,8 +24,8 @@ export default function About() {
             <span className="eyebrow">Who we are</span>
             <Reveal as="h2">Deep in the valley, high in ambition.</Reveal>
             <Reveal as="p">
-              Mathubesizwe High School — also known as Mathubesizwe Senior
-              Secondary School — stands in the Macambini Tribal Authority near
+              Mathubesizwe High School (also known as Mathubesizwe Senior
+              Secondary School) stands in the Macambini Tribal Authority near
               Nyoni, in the Ilembe district of KwaZulu-Natal. It is a public
               no-fee school, classified under quintile 3, serving around 1 035
               learners with a team of about 35 educators.
@@ -38,8 +38,8 @@ export default function About() {
               our pupils.
             </Reveal>
             <Reveal as="p">
-              And it is a story of learners — many of whom walk seven to ten
-              kilometres to school each day — whose discipline has taken our
+              And it is a story of learners, many of whom walk seven to ten
+              kilometres to school each day, whose discipline has taken our
               name to the national and international stage.
             </Reveal>
             <Reveal>
@@ -105,7 +105,7 @@ export default function About() {
               <h3>Our vision</h3>
               <p style={{ marginBottom: 0 }}>
                 To give every child of Macambini an education that opens doors
-                to the world — grounded in ubuntu, driven by excellence, and
+                to the world, grounded in ubuntu, driven by excellence, and
                 limited only by their imagination.
               </p>
             </Reveal>
@@ -169,16 +169,16 @@ export default function About() {
               circumstance tried to close.
             </Reveal>
             <Reveal as="p">
-              She has also been candid about what the school still needs — a
+              She has also been candid about what the school still needs: a
               library, a science laboratory and an internet-connected media
-              centre — and continues to appeal to authorities and donors alike.
+              centre. She continues to appeal to authorities and donors alike.
             </Reveal>
             <Reveal as="blockquote" className="lede" style={{ fontStyle: "italic" }}>
               “The school is incredibly proud of the hard work and determination
               our learners put into their studies.”
             </Reveal>
             <p style={{ opacity: 0.7, fontSize: "0.88rem" }}>
-              — Mrs Khumalo, Principal
+              Mrs Khumalo, Principal
             </p>
           </div>
         </div>
@@ -219,7 +219,7 @@ export default function About() {
         <div className="wrap">
           <CtaBanner
             title="Become part of our story"
-            body="Whether you are a parent, a learner, an alumnus or a donor — there is a place for you at Mathubesizwe."
+            body="Whether you are a parent, a learner, an alumnus or a donor, there is a place for you at Mathubesizwe."
           />
         </div>
       </section>

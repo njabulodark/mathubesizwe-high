@@ -2,7 +2,7 @@ export const school = {
   name: "Mathubesizwe High School",
   altName: "Mathubesizwe Senior Secondary School",
   tagline: "From the valley, to the world.",
-  motto: "Scientia Lux — Light is Life.",
+  motto: "Scientia Lux: Light is Life.",
   slogan:
     "A centre that strives for excellence through quality teaching and learning, thus developing full potential.",
   type: "Public secondary school · No-fee (Quintile 3)",
@@ -30,7 +30,7 @@ export const navLinks = [
 export const tickerItems = [
   "Registrations for the 2027 academic year are now open",
   "Class of 2025 · 7 distinctions by our top achiever",
-  "National Schools Moot Court — provincial finalists",
+  "National Schools Moot Court provincial finalists",
   "Walk 7–10 km a day? We are working on safe scholar transport",
   "New library, laboratory and media centre fundraising drive",
   "Bursary and NSFAS support available for all learners",
@@ -46,7 +46,7 @@ export const homeStats = [
 export const pillars = [
   {
     title: "Teaching that goes the extra mile",
-    body: "Our educators run weekend classes, source resources and arrange university mentors so every learner is supported — the way a rural school wins against the odds.",
+    body: "Our educators run weekend classes, source resources and arrange university mentors so every learner is supported, the way a rural school wins against the odds.",
   },
   {
     title: "Language, heritage & identity",
@@ -60,7 +60,7 @@ export const pillars = [
 
 export const aboutFacts = [
   { k: "Established", v: "A community-founded school at the heart of Macambini Tribal Authority" },
-  { k: "Phase", v: "Senior secondary — Grades 8 to 12" },
+  { k: "Phase", v: "Senior secondary, Grades 8 to 12" },
   { k: "Funding", v: "Quintile 3 no-fee public school" },
   { k: "Learners", v: "Approximately 1 035 learners served by 35 educators" },
   { k: "Teaching languages", v: "isiZulu (Home Language) & English (First Additional)" },
@@ -71,12 +71,12 @@ export const timeline = [
   {
     year: "Origins",
     title: "A community builds a school",
-    body: "Founded by the Macambini community so that children would no longer have to leave the area to complete their schooling, Mathubesizwe became — and remains — the gateway to a better life for local families.",
+    body: "Founded by the Macambini community so that children would no longer have to leave the area to complete their schooling, Mathubesizwe became, and remains, the gateway to a better life for local families.",
   },
   {
     year: "2019",
     title: "A record pass rate",
-    body: "The Class of 2019 registered an overall NSC pass rate of 98.4% — the highest the school had recorded in years — proof that discipline and community support carry the day.",
+    body: "The Class of 2019 registered an overall NSC pass rate of 98.4%, the highest the school had recorded in years, proof that discipline and community support carry the day.",
   },
   {
     year: "2020",
@@ -91,7 +91,7 @@ export const timeline = [
   {
     year: "Today",
     title: "Building the next chapter",
-    body: "The school community is driving a fundraising campaign for a library, science laboratory and media centre with internet access — so our learners can pursue their own research, right here in Macambini.",
+    body: "The school community is driving a fundraising campaign for a library, science laboratory and media centre with internet access, so our learners can pursue their own research, right here in Macambini.",
   },
 ];
 
@@ -102,7 +102,7 @@ export const values = [
   },
   {
     title: "Resilience",
-    body: "Some of our learners walk seven to ten kilometres to school — and arrive ready to learn.",
+    body: "Some of our learners walk seven to ten kilometres to school, and arrive ready to learn.",
   },
   {
     title: "Excellence",
@@ -274,14 +274,14 @@ export const news = [
     tag: "Events",
     date: "2025",
     title: "Matric Awards Day honours our achievers",
-    body: "Families, educators and community leaders filled the school hall as the National Senior Certificate was handed to the Class of 2025 — one learner at a time.",
+    body: "Families, educators and community leaders filled the school hall as the National Senior Certificate was handed to the Class of 2025, one learner at a time.",
     img: "/images/awards-12.jpg",
   },
   {
     tag: "Moot Court",
     date: "March 2020",
     title: "From Macambini to Gdynia, Poland",
-    body: "Nosipho Dube and Nondumiso Ntshangase represented South Africa at the 5th International Moot Court Competition — and Team South Africa was named the winner.",
+    body: "Nosipho Dube and Nondumiso Ntshangase represented South Africa at the 5th International Moot Court Competition, and Team South Africa was named the winner.",
     img: "/images/awards-14.jpg",
   },
   {
@@ -301,7 +301,7 @@ export const news = [
   {
     tag: "Results",
     date: "Class of 2019",
-    title: "A 98.4% pass rate — the highest in years",
+    title: "A 98.4% pass rate, the highest in years",
     body: "The Class of 2019 recorded the school's strongest overall pass rate, a milestone that continues to inspire our teaching staff and learners alike.",
     img: "/images/awards-16.jpg",
   },
@@ -309,7 +309,7 @@ export const news = [
     tag: "Skills",
     date: "Ongoing",
     title: "Coding and digital skills take root",
-    body: "Through coding clubs and digital-literacy sessions, more of our learners are discovering careers in technology — even as we campaign for better computer access.",
+    body: "Through coding clubs and digital-literacy sessions, more of our learners are discovering careers in technology, even as we campaign for better computer access.",
     img: "/images/hall-audience.jpg",
   },
 ];

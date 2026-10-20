@@ -18,7 +18,7 @@ export default function Admissions() {
         crumb="Admissions"
         eyebrow="Join us"
         title="Admissions &amp; registration"
-        intro="Registration for Grades 8 to 12 is open. Mathubesizwe is a no-fee public school — there are no school fees to pay."
+        intro="Registration for Grades 8 to 12 is open. Mathubesizwe is a no-fee public school, so there are no school fees to pay."
         image="/images/awards-07.jpg"
       />
 

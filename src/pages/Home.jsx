@@ -25,7 +25,7 @@ export default function Home() {
             <div>
               <p className="hero__blurb">
                 Mathubesizwe High School is a proud, no-fee public secondary
-                school at the heart of Macambini. Here, ubuntu meets ambition —
+                school at the heart of Macambini. Here, ubuntu meets ambition,
                 and learners who walk kilometres to reach the classroom go on to
                 compete on the world stage.
               </p>
@@ -74,7 +74,7 @@ export default function Home() {
               Today we serve around 1 035 learners with a team of 35 dedicated
               educators. Our teachers give up weekends to run extra classes, our
               principal pleads for the facilities our learners deserve, and our
-              learners — some of whom walk seven to ten kilometres each way —
+              learners, some of whom walk seven to ten kilometres each way,
               keep showing up, ready to learn.
             </Reveal>
             <Reveal as="p">
@@ -121,7 +121,7 @@ export default function Home() {
           <SectionHead
             eyebrow="Why Mathubesizwe"
             title="Three things we do with everything we have"
-            lede="No frills, no shortcuts — just a community that refuses to let circumstance decide a child's future."
+            lede="No frills, no shortcuts, just a community that refuses to let circumstance decide a child's future."
           />
           <div className="grid-3" style={{ marginTop: "3rem" }}>
             {pillars.map((p, i) => (
@@ -153,8 +153,8 @@ export default function Home() {
             <span className="eyebrow">Academics</span>
             <Reveal as="h2">Serious about results, generous with support.</Reveal>
             <Reveal as="p">
-              We offer three streams — Sciences &amp; Technology, Commerce, and
-              Humanities &amp; Law — grounded in isiZulu and English. Saturday
+              We offer three streams: Sciences &amp; Technology, Commerce, and
+              Humanities &amp; Law, grounded in isiZulu and English. Saturday
               classes, university mentors and bursary guidance come standard.
             </Reveal>
             <ul className="list-check list-check--light" style={{ marginBottom: "1.6rem" }}>
@@ -175,7 +175,7 @@ export default function Home() {
           <SectionHead
             eyebrow="Life at Mathubesizwe"
             title="A day in the valley"
-            lede="Learning, laughter, heritage and hard work — moments from our school community."
+            lede="Learning, laughter, heritage and hard work, moments from our school community."
             align="center"
           />
           <Reveal className="collage" style={{ marginTop: "3rem" }}>
@@ -267,7 +267,7 @@ export default function Home() {
             kilometres to school every day.”
           </Reveal>
           <Reveal as="p" style={{ color: "var(--ink-mute)", fontSize: "0.9rem" }}>
-            — {school.principal}, Principal
+            {school.principal}, Principal
           </Reveal>
           <hr className="rule-sky mx-auto" />
         </div>
